@@ -3,28 +3,28 @@ import { ArrowRight, CheckCircle } from 'lucide-react';
 
 const specialties = [
   {
-    title: "Génération de Prospects",
-    tags: ["Interface de tracking", "Création de contenu"],
+    title: "Prospection",
+    tags: ["Automatisation LinkedIn", "Hyper-personnalisation"],
     theme: "dark",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop"
   },
   {
-    title: "Management de Projets",
-    tags: ["Onboarding automatique", "CRM Intelligents"],
+    title: "Service Client",
+    tags: ["Onboarding automatique", "Gestion des tickets"],
     theme: "dark",
-    image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=2070&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=2070&auto=format&fit=crop"
   },
   {
-    title: "Référencement",
-    tags: ["Création automatique de blogs", "Optimisation SEO"],
+    title: "Gestion Admin",
+    tags: ["Traitement de documents", "Gestion des stocks"],
     theme: "dark",
     image: "https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?q=80&w=2070&auto=format&fit=crop"
   },
   {
-    title: "Service Client",
-    tags: ["Chatbots 24/7", "Gestion des tickets"],
+    title: "Projets personnalisés",
+    tags: ["Développés sur-mesure pour vos besoins"],
     theme: "dark",
-    image: "https://images.unsplash.com/photo-1531482615713-2afd69097998?q=80&w=2070&auto=format&fit=crop"
+    image: "https://images.unsplash.com/photo-1531403009284-440f080d1e12?q=80&w=2070&auto=format&fit=crop"
   }
 ];
 
@@ -81,7 +81,7 @@ const CaseStudies: React.FC = () => {
               rel="noopener noreferrer"
               className="btn-pill inline-flex items-center gap-3 bg-black text-white pl-6 pr-2 py-2 rounded-full text-base font-medium transition-transform hover:scale-105"
             >
-              <span>Démarrer un projet</span>
+              <span>Discuter d'un projet</span>
               <div className="bg-white rounded-full p-2 btn-icon transition-transform duration-300">
                   <ArrowRight className="w-4 h-4 text-black" />
               </div>

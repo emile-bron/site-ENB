@@ -21,7 +21,7 @@ const Contact: React.FC = () => {
                 rel="noopener noreferrer"
                 className="btn-pill inline-flex items-center gap-4 bg-black text-white pl-10 pr-3 py-3 rounded-full text-2xl font-medium transition-transform hover:scale-105"
             >
-                <span>Démarrer un projet</span>
+                <span>Prendre rendez-vous</span>
                 <div className="bg-white rounded-full p-4 btn-icon transition-transform duration-300">
                     <ArrowRight className="w-6 h-6 text-black" />
                 </div>

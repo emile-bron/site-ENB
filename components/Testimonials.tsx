@@ -2,12 +2,12 @@ import React, { useState } from 'react';
 
 const reviews = [
   {
-    text: "Le chatbot qu'Emile nous a construit fonctionne super bien, on est très content du résultat",
-    author: "Solène",
-    role: "Responsable Marketing, Laudevco"
+    text: "Le chatbot qu'Emile nous a construit fonctionne très bien. Il a beaucoup allégé notre équipe SAV, on est très content du résultat",
+    author: "William",
+    role: "Directeur, Laudevco"
   },
   {
-    text: "Emile m'a beaucoup aidé pour développer mon business freelance. Grace à son travail j'ai pu tripler mon nombre de clients par mois. Je le recommande et serai totalement prêt à travailler avec lui encore à l'avenir !",
+    text: "Emile m'a aidé pour développer mon activité freelance. J'ai triplé mon nombre de rendez-vous chaque mois grâce à son système de prospection. Je recommande !",
     author: "Constantin",
     role: "Designer Graphique"
   },
@@ -15,11 +15,6 @@ const reviews = [
     text: "Je remercie Emile pour son professionnalisme et son respect des délais. Il a créé un système de création de contenu dont nous sommes extrêmement satisfaits.",
     author: "Lucas",
     role: "Fondateur, Troupe des Deux Ailes"
-  },
-  {
-    text: "La durée de création de nos campagnes publicitaires a baissé de 85 % depuis que nous avons fait appel aux services d'Emile et son équipe.",
-    author: "Audrey",
-    role: "Co-Directrice, Heredis"
   }
 ];
 
